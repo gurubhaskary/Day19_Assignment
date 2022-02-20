@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <title>Day_19 Task_2</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="form_container">
+            <h2>Form</h2>
+            <form action="">
+
+                <div class="feild_container">
+                    <label for="fName">First Name:</label>
+                    <input type="text" placeholder="First Name" class="fName" name="fName" required><br><br>
+                </div>
+                <div class="feild_container">
+                    <label for="lName">Last Name:</label>
+                    <input type="text" placeholder="Last Name" class="lName" name="lName" required><br><br>
+                </div>
+                <div class="feild_container">
+                    <label for="addres">Address:</label>
+                    <textarea name="addres" class="address" cols="30" rows="5" placeholder="Enter your Address"
+                        required></textarea><br><br>
+                </div>
+                <div class="feild_container">
+                    <label for="city">City:</label>
+                    <input type="text" placeholder="Enter your city/town" class="city" name="city" required> <br><br>
+                </div>
+                <div class="feild_container">
+                    <label for="state">State:</label>
+                    <input type="text" placeholder="Enter your state" class="state" name="state" required><br><br>
+                </div>
+                <div class="feild_container">
+                    <label for="country">Country:</label>
+                    <input type="text" placeholder="Enter your Country" class="country" name="country" required><br><br>
+                </div>
+                <div class="feild_container">
+                    <label for="pincode">Pincode:</label>
+                    <input type="number" name="pincode" class="pincode" maxlength="6" placeholder="Enter your pincode"
+                        required><br><br>
+                </div>
+                <div class="radio_container">
+                    <label for="gender">Gender:</label><br><br>
+
+                    <input type="radio" name="gender" class="male">
+                    <label for="gender">Male</label><br><br>
+
+                    <input type="radio" name="gender" class="female">
+                    <label for="gender">Female</label><br><br>
+
+                    <input type="radio" name="gender" class="other">
+                    <label for="gender">Other</label><br><br>
+
+                </div>
+                <div class="check_container">
+                    <label for="food">Select your favorite food:</label><br></br>
+
+                    <input type="checkbox" name="food1" class="food1" value="Veg Salad">
+                    <label for="food1">Veg Salad</label> <br></br>
+
+
+                    <input type="checkbox" name="food2" class="food2" value="Fruit Salad">
+                    <label for="food2">Fruit Salad</label><br></br>
+
+                    <input type="checkbox" name="food3" class="food3" value="Dry Fruit & Nuts Mix">
+                    <label for="food3">Dry Fruit & Nuts Mix</label><br></br>
+
+                    <input type="checkbox" name="food4" class="food4" value="Veg wrap">
+                    <label for="food4">Veg wrap</label><br></br>
+
+                    <input type="checkbox" name="food5" class="food5" value="Panner wrap">
+                    <label for="food5">Panner wrap</label><br><br>
+                </div>
+                <div class="submit_container">
+                    <input type="submit" value="submit" class="submit">
+                </div>
+
+            </form>
+        </div>
+        <div class="table_container">
+            <h2>Data from Form</h2>
+
+            <table>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Gender</th>
+                    <th>Food</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Country</th>
+                    <th>Pincode</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+
+</html>
